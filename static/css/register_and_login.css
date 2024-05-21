@@ -1,0 +1,38 @@
+body{
+    color: #1F2421;
+    background-color: #DCE1DE;
+}
+
+.container{
+    width: 50%;
+    background-color: #216869;
+    height: 700px;
+}
+
+#form-container{
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #216869;
+}
+
+#form{
+    position: relative;
+    box-shadow: 30px 30px 0px 0px #1F2421;
+    top: 75px;
+    background-color: #DCE1DE;
+}
+
+#submit{
+    position: relative;
+    background-color: #216869;
+    font-size: 20px;
+    color: #DCE1DE
+}
+
+#page-title{
+    position: relative;
+    color: #DCE1DE;
+    text-align: center;
+    top: 40px;
+}

@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    </script>
+    <meta charset="UTF-8">
+    <title>Глобальный чат</title>
+</head>
+<body>
+<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>setInterval(function(){
+    load();
+}, 1000);</script>
+<script>
+    function load() {
+        $.ajax({
+            url: "/get_global_messages",
+            success: function (data) {
+                $('#msgs').html('')
+                let msgs = data;
+                for(let i = 0; i < data.length; i++){
+                    msg = msgs[i]
+                    if (i.file === '0') {
+                        $('#msgs').append('<div><div class="msg"><strong>' + msg.sender + '</strong><br>' + msg.text + '<span><strong>' + msg.time + '</strong></span> <br/>')
+                    }
+                    else if (i.is_image === 1) {
+                        $('#msgs').append('<div><div class="msg"><strong>' + msg.sender + '</strong><br>' + msg.text + '<span><strong>' + msg.time + '</strong></span> <br/>' + '<a style="color:blue;" href="/media/global_chat/' + msg.file + '">Скачать</a>' + '<img src = "/media/global_chat/' + i.file + '" class = "img-thumbnail"/> <br/>')
+                    }
+                    else {
+                        $('#msgs').append('<div><div class="msg"><strong>' + msg.sender + '</strong><br>' + msg.text + '<span><strong>' + msg.time + '</strong></span> <br/>' + '<a style="color:blue;" href="/media/global_chat/' + msg.file + '">Скачать</a>')
+                    }
+                }
+
+            }
+        });
+    }
+</script> !-->
+    <div class="preloader">
+
+    </div>
+    <div>
+        <div class="menu">
+            <div class="mainnav">
+                <div>
+                </div>
+                <h1>Global Chat</h1>
+                <a href="#" class="menu-btn"></a>
+                <ul class="menu-ul">
+                    <li>
+                        <a href="{% url 'index' %}"> ГЛАВНАЯ</a>
+                    </li>
+                    <li>
+                        <a href="{% url 'profile' %}"> ПРОФИЛЬ</a>
+                    </li>
+                    <li>
+                        <a href="{% url 'login' %}"> ВОЙТИ</a>
+                    </li>
+                    <li>
+                        <a href="{% url 'logout' %}"> ВЫЙТИ</a>
+                    </li>
+                    <li>
+                        <a href="{% url 'register' %}"> РЕГИСТРАЦИЯ</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="content">
+            <div id = "msgs" class="msgs">
+                {% for i in messages %}
+            <div>
+                <!--<a><img src="{{MEDIA_URL}}avatars/default.png"></a>-->
+                <div class="msg">
+                    <strong>{{ i.sender_username }}</strong><br>{{ i.text }}<span><strong> {{ i.time }}</strong></span> <br/>
+                    {% for file in i.files.all %}
+                        {% if file.is_image %}
+                            <img src = "{{file.file.url}}" class = "img-thumbnail"/> <br/>
+                        {% endif %}
+                        <a style="color: blue;" href = "{{ file.file.url }}">Скачать файл {{ file.name }} (вес {{ file.size }} КБ)</a> <br/>
+                    {% endfor %}
+                </div>
+            </div>
+        {% endfor %}
+        <br><br><br>
+            </div>
+            <div class="form">
+                <form action="/global_chat/" method="post" enctype="multipart/form-data">
+                        <div>
+                            <label class="custom-file-upload">
+                                {% csrf_token %}
+                                {{ form }}
+                            </label>
+                        </div>
+                        <div>
+                            <button class="btn" type="submit"></button>
+                        </div>
+                </form>
+            </div>
+        </div>
+    </div>
+<style>
+    body{
+        font-family: Arial;
+        background-color: #d3d3d3;
+    }
+    body:hover{
+    }
+    a{
+      text-decoration: none;
+      color:white;
+      display:flex;
+    }
+    a:visited{
+        color:none;
+      }
+    a:focus{
+        color:none;
+    }
+    a:hover{
+        color:none;
+      }
+    a:hover, a:active{
+        color:none;
+    }
+    ul{
+        list-style: none;
+    }
+    img{
+        max-height: 30vh;
+    }
+    .msg{
+        font-size: 16px;
+        background-color: white;
+        border-radius: 10px;
+        padding-left: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        display: inline-block;
+        margin-bottom: 10px;
+        margin-left: 25px;
+        max-width: 50%;
+        word-wrap: break-word;
+    }
+    .msgs{
+        margin-left: 25%;
+    }
+    .form{
+        height: 5%;
+        position: fixed;
+        bottom: 0px;
+        background-color: #d3d3d3;
+        width: 100%;
+        left: 0px;
+        text-align: center;
+        padding: 10px;
+    }
+    form{
+        height: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .content{
+        margin: 0 auto;
+    }
+    span{
+        color: gray;
+        font-size: 10px;
+    }
+    #id_text {
+        outline: none;
+    }
+    .mainnav{
+      display: flex;
+      align-items: center;
+    }
+    .mainnav ul li{
+      display: inline-block;
+    }
+    .menu{
+        display: inline-block;
+        color: white;
+        background-color: #ef233c;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        left: 0px;
+        transform: translateY(-100%);
+        transition: 0.5s;
+        float:left;
+    }
+    .menu_active {
+        transform: translateY(0%);
+    }
+    .menu-btn{
+          width: 60px;
+          height: 60px;
+          background-color: #ef233c;
+          position: absolute;
+          bottom: -50px;
+          z-index: -100;
+          right: 0;
+          border-radius: 50% 0% 50% 50% / 0% 50% 50% 50%;
+    }
+    .menu-btn:hover{
+	      transition: 0.5s;
+          color: #29648A;
+    }
+    .menu-btn::after{
+      position: absolute;
+      content: '';
+      top: 52.5%;
+      left: 50%;
+      width: 15px;
+      height: 15px;
+      border-color: black;
+      border-top: 5px solid;
+      border-left: 5px solid;
+      transform: translate(-50%, -50%) rotate(225deg);
+      transition: 0.5s;
+    }
+    .menu-ul{
+        position: relative;
+    }
+    .content{
+    }
+    h1{
+        margin-left: 10px;
+    }
+    .btn{
+        position: relative;
+        right: calc(50% - 50px / 2 + 30px);
+        background-color: white;
+        width: 50px;
+        height: 105%;
+        border: none;
+        border-radius: 0% 50% 50% 0% / 0% 50% 50% 0%;
+        transition: 0.5s;
+        transform: translateX(-50px);
+    }
+    .btn:hover {
+        transition: 0.5s;
+        background-color: lightgray;
+    }
+    input{
+        position: relative;
+        width: 450px;
+        left: calc(50% - 450px / 2 - 50px / 2 - 5px);
+        border: white;
+        font-size: 16px;
+        top: 0px;
+        height: 100%;
+    }
+    #id_files {
+        position: relative;
+        background-color: white;
+        width: 50px;
+        height: calc(105% + 0.5px);
+        border: none;
+        border-radius: 50% 0% 0% 50% / 50% 0% 0% 50%;
+        transition: 0.5s;
+        z-index: 101;
+        text-indent: -999em;
+        transform: translateY(-8px) translateX(-508px);
+    }
+    #id_files:hover{
+        transition: background-color 0.5s;
+        background-color: lightgray;
+    }
+    .preloader{
+      background-color: white;
+      background-image: url("{% static 'dgram.jpg'%}");
+      background-position: center;
+      background-size: 9%;
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 100;
+      width: 100%;
+      height: 100%;
+      background-repeat: no-repeat;
+      animation-iteration-count: infinite;
+      animation-duration: 0.5s;
+      animation-name: preloader-scale;
+    }
+    @keyframes preloader-scale{
+      from{
+        transform: scale(1.0);
+      }
+      50%{
+        transform: scale(1.5)
+      }
+      to{
+        transform: scale(1.0);
+      }
+    }
+</style>
+<script>
+  $('.menu-btn').on('click', function(e) {
+  e.preventDefault();
+  $('.menu').toggleClass('menu_active');
+  $('.content').toggleClass('content_active');
+})
+
+setTimeout(() => {
+    document.querySelector("body").classList.remove();
+    document.querySelector(".preloader").remove();
+}, 600)
+</script>
+</body>
+</html>

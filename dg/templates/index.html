@@ -1,0 +1,134 @@
+{% load static %}
+<html lang="ru">
+<head>
+    <title>DjangoGram</title>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="shortcut icon" href="{% static 'icon1.ico' %}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>.tabcontent {
+        display: none;
+        padding: 6px 12px;
+        border: 1px solid #ccc;
+        border-top: none;
+    }</style>
+</head>
+<body>
+<script>window.onload = function() {
+  load();
+};</script>
+<script>
+        function scrollDown() {
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (var i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].scrollTop = tabcontent[i].scrollHeight;
+            }
+        }
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>setInterval(function () {
+    load();
+}, 5000);</script>
+<script>
+    function load() {
+        $.ajax({
+            url: "/get_messages",
+            success: function (data) {
+                let msgs = data.new_messages;
+                let chats = data.chats;
+                let new_strng = '';
+                $('groups').html('')
+                for (let i = 0; i < chats.length; i++){
+                    $('groups').append('<button class="tablinks" onclick="openChat(event, "' +  chats[i].id  + '");scrollDown();"> <div class="group-container"> <img src="{{ MEDIA_URL }}avatars/default.png" class="group-icon"> <h2 class="group-title">' + chats[i].username + '</h2> </div> </button>')
+                }
+                for (let i = 0; i < msgs.length; i++) {
+                    st = '#';
+                    st += msgs[i].chat_id;
+                    $(st).html('')
+                }
+                for (let i = 0; i < msgs.length; i++) {
+                    st = '#';
+                    st += msgs[i].chat_id;
+                    msg = msgs[i];
+                    if (msg.file_p === "0") {
+                        $(st).append('<div class="msg"><h1 id="text">' + msgs[i].username + ': ' + msgs[i].text + '</h1>' + '<h3 id="time">' + msgs[i].time + '</h3>')
+                    } else if (msg.is_image === true) {
+                        $(st).append('<div class="msg"><h1 id="text">' + msgs[i].username + ': ' + msgs[i].text + '</h1>' + '<img src = "/media/direct_chat/' + msg.file_p + '" class = "img-thumbnail"/>'  + '<h3 id="time">' + msgs[i].time + '</h3>' + '<a style="color:blue;" href="/media/global_chat/' + msg.file + '">Скачать</a>')
+
+                    } else {
+                        $(st).append('<div class="msg"><h1 id="text">' + msgs[i].username + ': ' + msgs[i].text + '</h1>' + '<h3 id="time">' + msgs[i].time + '</h3>' + '<a style="color:blue;" href="/media/global_chat/' + msg.file + '">Скачать</a>')
+
+                    }
+                }
+            }
+        });
+    }
+</script>
+<script src="{% static 'js/script.js' %}"></script>
+<nav class="navbar-expand-lg navbar-light" style="background-color: #3f8ad1; width: 100%;">
+    <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav mr-auto">
+            {% for item in menu %}
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ item.link }}">{{ item.text }}</a>
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+</nav>
+<div class="main-container">
+    <div id="groups" class="groups-container">
+        {% for chat in chats %}
+            <button class="tablinks" onclick="openChat(event, '{{ chat.id }}');scrollDown();">
+                <div class="group-container">
+                    <img src="{{ MEDIA_URL }}avatars/default.png" class="group-icon">
+                    <h2 class="group-title">{{ names|get_item:chat.id }}</h2>
+                    </div>
+            </button>
+        {% endfor %}
+        <div class="group-container">
+            <form action="/newchat/" method="post">
+                {% csrf_token %}
+                <p>New chat</p>
+                {{ newchatform }}
+                <button>Submit</button>
+            </form>
+        </div>
+    </div>
+    <div class="chat-container" id="chats">
+        {% for id in ids %}
+            <div id="{{ id }}" class="tabcontent">
+                {% for msg in messages|get_item:id %}
+                    <div class="msg">
+                        <h1 id="text">{{ usernames|get_item:msg.sender_id }}: {{ msg.text }}</h1>
+                        <div style="font-size:20px;">
+                            {% for file in msg.files.all %}
+                                {% if file.is_image %}
+                                    <img src="{{ file.file.url }}" class="img-thumbnail"/> <br/>
+                                {% endif %}
+                                <a href="{{ file.file.url }}">Скачать файл {{ file.name }} (вес {{ file.size }} КБ)</a>
+                                <br/>
+                            {% endfor %}
+                        </div>
+                        <h3 id="time">{{ msg.time }}</h3>
+                    </div>
+
+                {% endfor %}
+            </div>
+        {% endfor %}
+    </div>
+    <form action="/sendmessage/" method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        Text:
+        <div class="mr-4"> {{ sendmessageform.text }} </div>
+        <div> {{ sendmessageform.files }} </div>
+        <input id="chat_id" type="hidden" name="chat_id" value="">
+        <button onclick="getChat();">Отправить</button>
+    </form>
+</div>
+</div>
+</body>
+</html>
+

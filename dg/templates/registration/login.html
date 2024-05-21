@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'css/register_and_login.css' %}"/>
+
+</head>
+<body>
+    <div class="container mt-2" style="height:500px;">
+        <p class="h1" id="page-title">Login</p>
+        <div id="form-container">
+            <form method="post" class="pt-3 pb-3" id="form" action="/login/">
+                {% csrf_token %}
+                <div class="form-group">
+                    <p class="h5">Username</p>
+                    {{ form.username }}
+                </div>
+                <div class="form-group">
+                    <p class="h5">Password</p>
+                    {{ form.password }}
+                </div>
+                <button class="btn btn-info mt-3 mb-3 submit">Submit</button>
+                <form>
+                    <input class="btn btn-info mt-3 mb-3 submit" type="button" value="Registration" onClick='location.href="/register"'>
+                </form>
+            </form>
+
+        </div>
+    </div>
+</body>
+</html>

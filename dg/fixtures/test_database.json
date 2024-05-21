@@ -1,0 +1,2165 @@
+[
+{
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+        "name": "Can add log entry",
+        "content_type": 1,
+        "codename": "add_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+        "name": "Can change log entry",
+        "content_type": 1,
+        "codename": "change_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+        "name": "Can delete log entry",
+        "content_type": 1,
+        "codename": "delete_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+        "name": "Can view log entry",
+        "content_type": 1,
+        "codename": "view_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+        "name": "Can add permission",
+        "content_type": 2,
+        "codename": "add_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+        "name": "Can change permission",
+        "content_type": 2,
+        "codename": "change_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+        "name": "Can delete permission",
+        "content_type": 2,
+        "codename": "delete_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+        "name": "Can view permission",
+        "content_type": 2,
+        "codename": "view_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+        "name": "Can add group",
+        "content_type": 3,
+        "codename": "add_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+        "name": "Can change group",
+        "content_type": 3,
+        "codename": "change_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+        "name": "Can delete group",
+        "content_type": 3,
+        "codename": "delete_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+        "name": "Can view group",
+        "content_type": 3,
+        "codename": "view_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+        "name": "Can add user",
+        "content_type": 4,
+        "codename": "add_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+        "name": "Can change user",
+        "content_type": 4,
+        "codename": "change_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+        "name": "Can delete user",
+        "content_type": 4,
+        "codename": "delete_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+        "name": "Can view user",
+        "content_type": 4,
+        "codename": "view_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+        "name": "Can add content type",
+        "content_type": 5,
+        "codename": "add_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+        "name": "Can change content type",
+        "content_type": 5,
+        "codename": "change_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+        "name": "Can delete content type",
+        "content_type": 5,
+        "codename": "delete_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+        "name": "Can view content type",
+        "content_type": 5,
+        "codename": "view_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+        "name": "Can add session",
+        "content_type": 6,
+        "codename": "add_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+        "name": "Can change session",
+        "content_type": 6,
+        "codename": "change_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+        "name": "Can delete session",
+        "content_type": 6,
+        "codename": "delete_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+        "name": "Can view session",
+        "content_type": 6,
+        "codename": "view_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+        "name": "Can add chat",
+        "content_type": 7,
+        "codename": "add_chat"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+        "name": "Can change chat",
+        "content_type": 7,
+        "codename": "change_chat"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+        "name": "Can delete chat",
+        "content_type": 7,
+        "codename": "delete_chat"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+        "name": "Can view chat",
+        "content_type": 7,
+        "codename": "view_chat"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+        "name": "Can add message",
+        "content_type": 8,
+        "codename": "add_message"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+        "name": "Can change message",
+        "content_type": 8,
+        "codename": "change_message"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+        "name": "Can delete message",
+        "content_type": 8,
+        "codename": "delete_message"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+        "name": "Can view message",
+        "content_type": 8,
+        "codename": "view_message"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+        "name": "Can add global chat",
+        "content_type": 9,
+        "codename": "add_globalchat"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+        "name": "Can change global chat",
+        "content_type": 9,
+        "codename": "change_globalchat"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+        "name": "Can delete global chat",
+        "content_type": 9,
+        "codename": "delete_globalchat"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+        "name": "Can view global chat",
+        "content_type": 9,
+        "codename": "view_globalchat"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+        "name": "Can add user balance",
+        "content_type": 10,
+        "codename": "add_userbalance"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+        "name": "Can change user balance",
+        "content_type": 10,
+        "codename": "change_userbalance"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+        "name": "Can delete user balance",
+        "content_type": 10,
+        "codename": "delete_userbalance"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+        "name": "Can view user balance",
+        "content_type": 10,
+        "codename": "view_userbalance"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 41,
+    "fields": {
+        "name": "Can add shop keys",
+        "content_type": 11,
+        "codename": "add_shopkeys"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 42,
+    "fields": {
+        "name": "Can change shop keys",
+        "content_type": 11,
+        "codename": "change_shopkeys"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 43,
+    "fields": {
+        "name": "Can delete shop keys",
+        "content_type": 11,
+        "codename": "delete_shopkeys"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 44,
+    "fields": {
+        "name": "Can view shop keys",
+        "content_type": 11,
+        "codename": "view_shopkeys"
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$320000$0vX9vo67lf4BHeiknvOnV8$43nwxmIaR7YXgBVkU2xXSgcAZ0e5PvHO7rMnQW4v3nk=",
+        "last_login": "2022-04-02T14:32:55.818Z",
+        "is_superuser": true,
+        "username": "g",
+        "first_name": "g",
+        "last_name": "",
+        "email": "g@google.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2022-03-26T16:11:02.728Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 2,
+    "fields": {
+        "password": "pbkdf2_sha256$320000$7bRhcX67jxBrRmw4Wgzxu6$Rdz6bCPI624ueT4UvG8qA7+M2WmgO4xfPv5s9NzrBvE=",
+        "last_login": "2022-03-26T16:11:49.468Z",
+        "is_superuser": false,
+        "username": "narek",
+        "first_name": "narek",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2022-03-26T16:11:32.379Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 3,
+    "fields": {
+        "password": "pbkdf2_sha256$320000$JbqCT88DewS8FJGyJXzPI9$lmwqOOk492JMu2jAibywBkrOVLQC5g8YlZZbXBBC8+Y=",
+        "last_login": "2022-03-26T16:13:12.036Z",
+        "is_superuser": false,
+        "username": "aboba",
+        "first_name": "aboba",
+        "last_name": "",
+        "email": "aboba@aboba.cum",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2022-03-26T16:13:06.391Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 4,
+    "fields": {
+        "password": "pbkdf2_sha256$320000$ERIjKN4JU2MRVQx4DMfwJz$Qm9uSwdNDsY3/7TGOuSSnEgOgHsKtBl6DZYAzLuapec=",
+        "last_login": "2022-03-26T16:22:34.697Z",
+        "is_superuser": false,
+        "username": "mel",
+        "first_name": "mel",
+        "last_name": "",
+        "email": "a@mail.ru",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2022-03-26T16:22:29.042Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 5,
+    "fields": {
+        "password": "pbkdf2_sha256$320000$DXHGIjv3nbBu4deSdOkGCT$6sKecTIwsQgpSuwAPm+hEJBo/1IidLkZjmtmj7sq4Go=",
+        "last_login": "2022-03-26T16:24:06.413Z",
+        "is_superuser": false,
+        "username": "superidol",
+        "first_name": "superidol",
+        "last_name": "",
+        "email": "super@idol.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2022-03-26T16:23:39.651Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 6,
+    "fields": {
+        "password": "pbkdf2_sha256$320000$JrNsK6G2WjyNyYPLs665gv$MRaDICcjytBycHRitTEkCilPtHJN006PtFIQSnvAq2Y=",
+        "last_login": "2022-03-26T16:40:01.406Z",
+        "is_superuser": false,
+        "username": "vladimr_lenin",
+        "first_name": "VladimrLenin",
+        "last_name": "",
+        "email": "vladimr_lenin@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2022-03-26T16:39:37.776Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 7,
+    "fields": {
+        "password": "pbkdf2_sha256$320000$3EmuMULvU5w06bbMt9l4hi$PT7CyG+pzT46YEY+bgWyPUfCf422ZredAdiC9bP8Ubs=",
+        "last_login": "2022-03-26T16:41:17.133Z",
+        "is_superuser": false,
+        "username": "narek_gay",
+        "first_name": "Narek Is Gay",
+        "last_name": "",
+        "email": "narekgay@incocks.ru",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2022-03-26T16:40:59.948Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+        "app_label": "admin",
+        "model": "logentry"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+        "app_label": "auth",
+        "model": "permission"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+        "app_label": "auth",
+        "model": "group"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+        "app_label": "auth",
+        "model": "user"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+        "app_label": "contenttypes",
+        "model": "contenttype"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+        "app_label": "sessions",
+        "model": "session"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+        "app_label": "dg",
+        "model": "chat"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+        "app_label": "dg",
+        "model": "message"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+        "app_label": "dg",
+        "model": "globalchat"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+        "app_label": "dg",
+        "model": "userbalance"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 11,
+    "fields": {
+        "app_label": "dg",
+        "model": "shopkeys"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "2d3ejoqfh2ue2wmy3h5cimswfygi9fx3",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2pAOhQ516d4zkBkYpWogKe3KeHfbpAvdvvf-f6tA65LD2mQOU1JnBer0y5jiU8ou0oPKvepYyzJPrPdEH7bpa03yuhzt30Gmlrc1Gg_kDdoboRWi5HDAzoNj00XjkXgDLODAgjM8Wt_j4N0IvQgn6tXnC71oNuU:1nY96r:-aCYA5kKKIuRLz9F22LyzRqBuhD2XAyKHums6PyvHt4",
+        "expire_date": "2022-04-09T16:17:49.095Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "3g5phvpyllef7ihc5dnrtmbl9q56ckv4",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2hCY0uK4dN8zkJmBStXQpLQr492VpAvd_fz38l4q0L7lsNe0hjmqixrU6fdjkkcqDcQ7lduiZSnbOrNuij5o1eMS0_N6uH-BTDW3LA-dF-cYGIG9cD8ZcGBtspgwGnZ4JphEqDfkjXdIgEwdojfxO9T7A92dN80:1nY9SL:YHWDDe1oJX9wKRjkPI0XktPi78ZFLJzRxib8POI2n_0",
+        "expire_date": "2022-04-09T16:40:01.437Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "860tk4pw70rvv5illxncs6gh4isbv5fw",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2pAOhQ516d4zkBkYpWogKe3KeHfbpAvdvvf-f6tA65LD2mQOU1JnBer0y5jiU8ou0oPKvepYyzJPrPdEH7bpa03yuhzt30Gmlrc1Gg_kDdoboRWi5HDAzoNj00XjkXgDLODAgjM8Wt_j4N0IvQgn6tXnC71oNuU:1nY90L:lKX8TGa2499SYVXU-zAbfhnSAdHCSKZRwuZj3GzK_nY",
+        "expire_date": "2022-04-09T16:11:05.948Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "a08kqm8ov34f5fbjbdex9lh93nyjn38v",
+    "fields": {
+        "session_data": ".eJxVjMEOwiAQRP-FsyEUCywevfsNZGEXqRqalPZk_Hdp0oNe5jDvzbxFwG0tYWu8hInERRhx-u0ipifXHdAD632Waa7rMkW5K_KgTd5m4tf1cP8OCrbS1w5MOkOPIWbLGqJHG4m088DZe6tGNAMox1kn5UGhBjV2rDkRZrbi8wXe4jfx:1nY9Cw:Nh6m0KXCoOmBnH4ExCqtwmn0_syOC9741xY7rkKb6A4",
+        "expire_date": "2022-04-09T16:24:06.437Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "arikiz1flj8m4s4mtgebdff0fy8fmeco",
+    "fields": {
+        "session_data": ".eJxVjMsOwiAQRf-FtSEd3rh07zcQYAapGkhKuzL-uzbpQrf3nHNfLMRtrWEbtIQZ2ZlZdvrdUswPajvAe2y3znNv6zInviv8oINfO9Lzcrh_BzWO-q2JcIoTSAnKF5dkMaJAFkonna3QznltTVZFOZQExhqZISm06MEgOsHeH9ZbN1c:1nY9TZ:eMdVvgRSU8Mh0C3C-ob1n0SyDx_gsQOGMIXTy0dZAf4",
+        "expire_date": "2022-04-09T16:41:17.155Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "fdpqqi6p9yhddiwyrqs3tkn9y34e36k5",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2pAOhQ516d4zkBkYpWogKe3KeHfbpAvdvvf-f6tA65LD2mQOU1JnBer0y5jiU8ou0oPKvepYyzJPrPdEH7bpa03yuhzt30Gmlrc1Gg_kDdoboRWi5HDAzoNj00XjkXgDLODAgjM8Wt_j4N0IvQgn6tXnC71oNuU:1naeoB:j6PBsVyjVY-Jna3lfegTclD41PvIfEqgaHnIf3ZG_Zk",
+        "expire_date": "2022-04-16T14:32:55.864Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "qpgf4lu62f94tq2vgkk7thno1kjjor69",
+    "fields": {
+        "session_data": ".eJxVjMsOwiAQRf-FtSHACAMu3fcbCI9BqgaS0q6M_65NutDtPefcF_NhW6vfBi1-zuzCFDv9bjGkB7Ud5Htot85Tb-syR74r_KCDTz3T83q4fwc1jPqtk3N0RgArtCFNNkUtQQoDTiagoJC0tUVGiQKFUyjRgsKiCkQgnQx7fwC1kjaT:1nY913:wUPY3fXr9bMXtdxGgFepuX0kEldBaBlYTEcvISF45-U",
+        "expire_date": "2022-04-09T16:11:49.490Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "sqpxuowtum6486gqd7r5fyc9gebx1trl",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2hCGaSm4dO8ZyACDVA0kpV0Z765NutDtf-_9l_C0rcVvnRc_J3EWgzj9boHig-sO0p3qrcnY6rrMQe6KPGiX15b4eTncv4NCvXxrdjjljODimBkzsBlV0mCiUi6hVnlydlDECdmChuAALCFYjZmZnRHvD9u_N3s:1nY9BS:kugSnzuO1R-hN4NlW_BChUNTpX9_YTKi1a2IbTaGpig",
+        "expire_date": "2022-04-09T16:22:34.720Z"
+    }
+},
+{
+    "model": "dg.chat",
+    "pk": 1,
+    "fields": {
+        "uid1": 1,
+        "uid2": 2
+    }
+},
+{
+    "model": "dg.chat",
+    "pk": 2,
+    "fields": {
+        "uid1": 3,
+        "uid2": 1
+    }
+},
+{
+    "model": "dg.chat",
+    "pk": 3,
+    "fields": {
+        "uid1": 3,
+        "uid2": 2
+    }
+},
+{
+    "model": "dg.chat",
+    "pk": 4,
+    "fields": {
+        "uid1": 4,
+        "uid2": 1
+    }
+},
+{
+    "model": "dg.chat",
+    "pk": 5,
+    "fields": {
+        "uid1": 4,
+        "uid2": 2
+    }
+},
+{
+    "model": "dg.chat",
+    "pk": 6,
+    "fields": {
+        "uid1": 4,
+        "uid2": 3
+    }
+},
+{
+    "model": "dg.chat",
+    "pk": 7,
+    "fields": {
+        "uid1": 5,
+        "uid2": 2
+    }
+},
+{
+    "model": "dg.chat",
+    "pk": 8,
+    "fields": {
+        "uid1": 5,
+        "uid2": 1
+    }
+},
+{
+    "model": "dg.chat",
+    "pk": 9,
+    "fields": {
+        "uid1": 5,
+        "uid2": 3
+    }
+},
+{
+    "model": "dg.chat",
+    "pk": 10,
+    "fields": {
+        "uid1": 6,
+        "uid2": 1
+    }
+},
+{
+    "model": "dg.globalchat",
+    "pk": 1,
+    "fields": {
+        "sender_username": "g",
+        "text": "sf",
+        "time": "16:35:20.844"
+    }
+},
+{
+    "model": "dg.globalchat",
+    "pk": 2,
+    "fields": {
+        "sender_username": "g",
+        "text": "sfdsfg",
+        "time": "16:35:23.306"
+    }
+},
+{
+    "model": "dg.globalchat",
+    "pk": 3,
+    "fields": {
+        "sender_username": "g",
+        "text": "sfdsfgdgdg",
+        "time": "16:35:26.667"
+    }
+},
+{
+    "model": "dg.globalchat",
+    "pk": 4,
+    "fields": {
+        "sender_username": "g",
+        "text": "sfdsfgdgdgfsdgsdfg",
+        "time": "16:35:29.939"
+    }
+},
+{
+    "model": "dg.globalchat",
+    "pk": 5,
+    "fields": {
+        "sender_username": "g",
+        "text": "asffads",
+        "time": "16:36:05.245"
+    }
+},
+{
+    "model": "dg.globalchat",
+    "pk": 6,
+    "fields": {
+        "sender_username": "g",
+        "text": "Hello!",
+        "time": "16:36:09.924"
+    }
+},
+{
+    "model": "dg.globalchat",
+    "pk": 7,
+    "fields": {
+        "sender_username": "g",
+        "text": "Hello!",
+        "time": "16:36:26.210"
+    }
+},
+{
+    "model": "dg.globalchat",
+    "pk": 8,
+    "fields": {
+        "sender_username": "g",
+        "text": "Anyboddy here?",
+        "time": "16:36:33.205"
+    }
+},
+{
+    "model": "dg.globalchat",
+    "pk": 9,
+    "fields": {
+        "sender_username": "superidol",
+        "text": "Super idol de xiào róng",
+        "time": "16:36:33.290"
+    }
+},
+{
+    "model": "dg.globalchat",
+    "pk": 10,
+    "fields": {
+        "sender_username": "superidol",
+        "text": "Dōu méi nǐ de tián",
+        "time": "16:36:42.683"
+    }
+},
+{
+    "model": "dg.globalchat",
+    "pk": 11,
+    "fields": {
+        "sender_username": "superidol",
+        "text": "Bā yuè zhèng wǔ de yáng guāng",
+        "time": "16:36:48.030"
+    }
+},
+{
+    "model": "dg.globalchat",
+    "pk": 12,
+    "fields": {
+        "sender_username": "narek",
+        "text": "мой глобал юзай",
+        "time": "16:36:48.031"
+    }
+},
+{
+    "model": "dg.globalchat",
+    "pk": 13,
+    "fields": {
+        "sender_username": "narek",
+        "text": "мой глобал юзай",
+        "time": "16:36:51.305"
+    }
+},
+{
+    "model": "dg.globalchat",
+    "pk": 14,
+    "fields": {
+        "sender_username": "superidol",
+        "text": "Dōu méi nǐ yào yǎn",
+        "time": "16:36:53.130"
+    }
+},
+{
+    "model": "dg.globalchat",
+    "pk": 15,
+    "fields": {
+        "sender_username": "superidol",
+        "text": "Rè ài yì bǎi líng wǔ dù de nǐ",
+        "time": "16:36:57.229"
+    }
+},
+{
+    "model": "dg.globalchat",
+    "pk": 16,
+    "fields": {
+        "sender_username": "g",
+        "text": "Anyboddy here?",
+        "time": "16:36:59.348"
+    }
+},
+{
+    "model": "dg.globalchat",
+    "pk": 17,
+    "fields": {
+        "sender_username": "superidol",
+        "text": "Dī dī qīng chún de zhēng liú shuǐ",
+        "time": "16:37:01.120"
+    }
+},
+{
+    "model": "dg.globalchat",
+    "pk": 18,
+    "fields": {
+        "sender_username": "narek",
+        "text": "мой глобал юзай",
+        "time": "16:37:01.942"
+    }
+},
+{
+    "model": "dg.globalchat",
+    "pk": 19,
+    "fields": {
+        "sender_username": "narek",
+        "text": "мой глобал юзай",
+        "time": "16:37:02.363"
+    }
+},
+{
+    "model": "dg.globalchat",
+    "pk": 20,
+    "fields": {
+        "sender_username": "narek",
+        "text": "мой глобал юзай",
+        "time": "16:37:02.535"
+    }
+},
+{
+    "model": "dg.globalchat",
+    "pk": 21,
+    "fields": {
+        "sender_username": "narek",
+        "text": "мой глобал юзай",
+        "time": "16:37:02.969"
+    }
+},
+{
+    "model": "dg.globalchat",
+    "pk": 22,
+    "fields": {
+        "sender_username": "narek",
+        "text": "мой глобал юзай",
+        "time": "16:37:03.379"
+    }
+},
+{
+    "model": "dg.globalchat",
+    "pk": 23,
+    "fields": {
+        "sender_username": "mel",
+        "text": "dungeon master",
+        "time": "16:37:03.685"
+    }
+},
+{
+    "model": "dg.globalchat",
+    "pk": 24,
+    "fields": {
+        "sender_username": "narek",
+        "text": "мой глобал юзай",
+        "time": "16:37:06.050"
+    }
+},
+{
+    "model": "dg.globalchat",
+    "pk": 25,
+    "fields": {
+        "sender_username": "mel",
+        "text": "dungeon master",
+        "time": "16:37:06.051"
+    }
+},
+{
+    "model": "dg.globalchat",
+    "pk": 26,
+    "fields": {
+        "sender_username": "narek",
+        "text": "мой глобал юзай",
+        "time": "16:37:06.450"
+    }
+},
+{
+    "model": "dg.globalchat",
+    "pk": 27,
+    "fields": {
+        "sender_username": "narek",
+        "text": "мой глобал юзай",
+        "time": "16:37:06.960"
+    }
+},
+{
+    "model": "dg.globalchat",
+    "pk": 28,
+    "fields": {
+        "sender_username": "narek",
+        "text": "мой глобал юзай",
+        "time": "16:37:07.784"
+    }
+},
+{
+    "model": "dg.globalchat",
+    "pk": 29,
+    "fields": {
+        "sender_username": "narek",
+        "text": "мой глобал юзай",
+        "time": "16:37:07.825"
+    }
+},
+{
+    "model": "dg.globalchat",
+    "pk": 30,
+    "fields": {
+        "sender_username": "g",
+        "text": "SUPER IDOL DENIED",
+        "time": "16:37:07.992"
+    }
+},
+{
+    "model": "dg.globalchat",
+    "pk": 31,
+    "fields": {
+        "sender_username": "mel",
+        "text": "dungeon master",
+        "time": "16:37:09.946"
+    }
+},
+{
+    "model": "dg.globalchat",
+    "pk": 32,
+    "fields": {
+        "sender_username": "mel",
+        "text": "dungeon master",
+        "time": "16:37:10.511"
+    }
+},
+{
+    "model": "dg.globalchat",
+    "pk": 33,
+    "fields": {
+        "sender_username": "narek",
+        "text": "мой глобал юзай",
+        "time": "16:37:10.961"
+    }
+},
+{
+    "model": "dg.globalchat",
+    "pk": 34,
+    "fields": {
+        "sender_username": "narek",
+        "text": "мой глобал юзай",
+        "time": "16:37:11.476"
+    }
+},
+{
+    "model": "dg.globalchat",
+    "pk": 35,
+    "fields": {
+        "sender_username": "narek",
+        "text": "мой глобал юзай",
+        "time": "16:37:11.832"
+    }
+},
+{
+    "model": "dg.globalchat",
+    "pk": 36,
+    "fields": {
+        "sender_username": "narek",
+        "text": "мой глобал юзай",
+        "time": "16:37:12.230"
+    }
+},
+{
+    "model": "dg.globalchat",
+    "pk": 37,
+    "fields": {
+        "sender_username": "narek",
+        "text": "мой глобал юзай",
+        "time": "16:37:12.690"
+    }
+},
+{
+    "model": "dg.globalchat",
+    "pk": 38,
+    "fields": {
+        "sender_username": "narek",
+        "text": "мой глобал юзай",
+        "time": "16:37:13.406"
+    }
+},
+{
+    "model": "dg.globalchat",
+    "pk": 39,
+    "fields": {
+        "sender_username": "g",
+        "text": "SUPER IDOL DENIED",
+        "time": "16:37:18.242"
+    }
+},
+{
+    "model": "dg.globalchat",
+    "pk": 40,
+    "fields": {
+        "sender_username": "g",
+        "text": "SUPER IDOL DENIED",
+        "time": "16:37:18.584"
+    }
+},
+{
+    "model": "dg.globalchat",
+    "pk": 41,
+    "fields": {
+        "sender_username": "g",
+        "text": "SUPER IDOL DENIED",
+        "time": "16:37:19.110"
+    }
+},
+{
+    "model": "dg.globalchat",
+    "pk": 42,
+    "fields": {
+        "sender_username": "g",
+        "text": "SUPER IDOL DENIED",
+        "time": "16:37:19.582"
+    }
+},
+{
+    "model": "dg.globalchat",
+    "pk": 43,
+    "fields": {
+        "sender_username": "g",
+        "text": "SUPER IDOL DENIED",
+        "time": "16:37:19.925"
+    }
+},
+{
+    "model": "dg.globalchat",
+    "pk": 44,
+    "fields": {
+        "sender_username": "g",
+        "text": "SUPER IDOL DENIED",
+        "time": "16:37:20.468"
+    }
+},
+{
+    "model": "dg.globalchat",
+    "pk": 45,
+    "fields": {
+        "sender_username": "g",
+        "text": "SUPER IDOL DENIED",
+        "time": "16:37:20.961"
+    }
+},
+{
+    "model": "dg.globalchat",
+    "pk": 46,
+    "fields": {
+        "sender_username": "g",
+        "text": "SUPER IDOL DENIED",
+        "time": "16:37:21.316"
+    }
+},
+{
+    "model": "dg.globalchat",
+    "pk": 47,
+    "fields": {
+        "sender_username": "g",
+        "text": "SUPER IDOL DENIED",
+        "time": "16:37:21.797"
+    }
+},
+{
+    "model": "dg.globalchat",
+    "pk": 48,
+    "fields": {
+        "sender_username": "g",
+        "text": "SUPER IDOL DENIED",
+        "time": "16:37:22.157"
+    }
+},
+{
+    "model": "dg.globalchat",
+    "pk": 49,
+    "fields": {
+        "sender_username": "g",
+        "text": "SUPER IDOL DENIED",
+        "time": "16:37:22.728"
+    }
+},
+{
+    "model": "dg.globalchat",
+    "pk": 50,
+    "fields": {
+        "sender_username": "g",
+        "text": "SUPER IDOL DENIED",
+        "time": "16:37:23.075"
+    }
+},
+{
+    "model": "dg.globalchat",
+    "pk": 51,
+    "fields": {
+        "sender_username": "g",
+        "text": "SUPER IDOL DENIED",
+        "time": "16:37:23.617"
+    }
+},
+{
+    "model": "dg.globalchat",
+    "pk": 52,
+    "fields": {
+        "sender_username": "g",
+        "text": "SUPER IDOL DENIED",
+        "time": "16:37:24.150"
+    }
+},
+{
+    "model": "dg.globalchat",
+    "pk": 53,
+    "fields": {
+        "sender_username": "g",
+        "text": "SUPER IDOL DENIED",
+        "time": "16:37:24.634"
+    }
+},
+{
+    "model": "dg.globalchat",
+    "pk": 54,
+    "fields": {
+        "sender_username": "g",
+        "text": "SUPER IDOL DENIED",
+        "time": "16:37:24.926"
+    }
+},
+{
+    "model": "dg.globalchat",
+    "pk": 55,
+    "fields": {
+        "sender_username": "g",
+        "text": "SUPER IDOL DENIED",
+        "time": "16:37:25.563"
+    }
+},
+{
+    "model": "dg.globalchat",
+    "pk": 56,
+    "fields": {
+        "sender_username": "g",
+        "text": "SUPER IDOL DENIED",
+        "time": "16:37:25.939"
+    }
+},
+{
+    "model": "dg.globalchat",
+    "pk": 57,
+    "fields": {
+        "sender_username": "g",
+        "text": "SUPER IDOL DENIED",
+        "time": "16:37:26.462"
+    }
+},
+{
+    "model": "dg.globalchat",
+    "pk": 58,
+    "fields": {
+        "sender_username": "superidol",
+        "text": "Dī dī qīng chún de zhēng liú shuǐ",
+        "time": "16:37:27.953"
+    }
+},
+{
+    "model": "dg.globalchat",
+    "pk": 59,
+    "fields": {
+        "sender_username": "mel",
+        "text": "master",
+        "time": "16:37:30.608"
+    }
+},
+{
+    "model": "dg.globalchat",
+    "pk": 60,
+    "fields": {
+        "sender_username": "superidol",
+        "text": ":(",
+        "time": "16:37:35.331"
+    }
+},
+{
+    "model": "dg.globalchat",
+    "pk": 61,
+    "fields": {
+        "sender_username": "g",
+        "text": "SUPER IDOL DENIED",
+        "time": "16:37:37.526"
+    }
+},
+{
+    "model": "dg.globalchat",
+    "pk": 62,
+    "fields": {
+        "sender_username": "narek",
+        "text": "тимофей попущ",
+        "time": "16:37:41.878"
+    }
+},
+{
+    "model": "dg.globalchat",
+    "pk": 63,
+    "fields": {
+        "sender_username": "narek",
+        "text": "тимофей попущ",
+        "time": "16:37:42.183"
+    }
+},
+{
+    "model": "dg.globalchat",
+    "pk": 64,
+    "fields": {
+        "sender_username": "narek",
+        "text": "тимофей попущ",
+        "time": "16:37:42.490"
+    }
+},
+{
+    "model": "dg.globalchat",
+    "pk": 65,
+    "fields": {
+        "sender_username": "narek",
+        "text": "тимофей попущ",
+        "time": "16:37:42.785"
+    }
+},
+{
+    "model": "dg.globalchat",
+    "pk": 66,
+    "fields": {
+        "sender_username": "narek",
+        "text": "тимофей попущ",
+        "time": "16:37:43.205"
+    }
+},
+{
+    "model": "dg.globalchat",
+    "pk": 67,
+    "fields": {
+        "sender_username": "narek",
+        "text": "тимофей попущ",
+        "time": "16:37:43.716"
+    }
+},
+{
+    "model": "dg.globalchat",
+    "pk": 68,
+    "fields": {
+        "sender_username": "superidol",
+        "text": "😎",
+        "time": "16:37:45.351"
+    }
+},
+{
+    "model": "dg.globalchat",
+    "pk": 69,
+    "fields": {
+        "sender_username": "g",
+        "text": "SUPER IDOL DENIED",
+        "time": "16:37:54.728"
+    }
+},
+{
+    "model": "dg.globalchat",
+    "pk": 70,
+    "fields": {
+        "sender_username": "narek",
+        "text": "тимофей попущ",
+        "time": "16:37:56.826"
+    }
+},
+{
+    "model": "dg.globalchat",
+    "pk": 71,
+    "fields": {
+        "sender_username": "narek",
+        "text": "тимофей попущ",
+        "time": "16:38:07.135"
+    }
+},
+{
+    "model": "dg.globalchat",
+    "pk": 72,
+    "fields": {
+        "sender_username": "g",
+        "text": "f",
+        "time": "16:38:10.437"
+    }
+},
+{
+    "model": "dg.globalchat",
+    "pk": 73,
+    "fields": {
+        "sender_username": "g",
+        "text": "f",
+        "time": "16:38:10.938"
+    }
+},
+{
+    "model": "dg.globalchat",
+    "pk": 74,
+    "fields": {
+        "sender_username": "g",
+        "text": "f",
+        "time": "16:38:11.236"
+    }
+},
+{
+    "model": "dg.globalchat",
+    "pk": 75,
+    "fields": {
+        "sender_username": "g",
+        "text": "f",
+        "time": "16:38:11.725"
+    }
+},
+{
+    "model": "dg.globalchat",
+    "pk": 76,
+    "fields": {
+        "sender_username": "g",
+        "text": "f",
+        "time": "16:38:12.038"
+    }
+},
+{
+    "model": "dg.globalchat",
+    "pk": 77,
+    "fields": {
+        "sender_username": "g",
+        "text": "f",
+        "time": "16:38:12.537"
+    }
+},
+{
+    "model": "dg.globalchat",
+    "pk": 78,
+    "fields": {
+        "sender_username": "superidol",
+        "text": "👍🏿👍🏿👍🏿👍🏿👍🏿",
+        "time": "16:38:15.256"
+    }
+},
+{
+    "model": "dg.globalchat",
+    "pk": 79,
+    "fields": {
+        "sender_username": "g",
+        "text": "$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@ $@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@ $@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@ $@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@ $@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@ $@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@ $@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@ $@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@ $@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@ $@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@ $@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@ $@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@ $@$@$@$@$@$@$@$@$@$@$@$@$@$@",
+        "time": "16:38:23.401"
+    }
+},
+{
+    "model": "dg.globalchat",
+    "pk": 80,
+    "fields": {
+        "sender_username": "superidol",
+        "text": "👍🏿👍🏿👍🏿👍🏿👍🏿",
+        "time": "16:38:25.094"
+    }
+},
+{
+    "model": "dg.globalchat",
+    "pk": 81,
+    "fields": {
+        "sender_username": "g",
+        "text": "$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@ $@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@ $@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@ $@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@ $@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@ $@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@ $@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@ $@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@ $@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@ $@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@ $@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@ $@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@ $@$@$@$@$@$@$@$@$@$@$@$@$@$@",
+        "time": "16:38:25.570"
+    }
+},
+{
+    "model": "dg.globalchat",
+    "pk": 82,
+    "fields": {
+        "sender_username": "g",
+        "text": "$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@ $@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@ $@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@ $@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@ $@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@ $@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@ $@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@ $@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@ $@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@ $@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@ $@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@ $@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@ $@$@$@$@$@$@$@$@$@$@$@$@$@$@",
+        "time": "16:38:25.876"
+    }
+},
+{
+    "model": "dg.globalchat",
+    "pk": 83,
+    "fields": {
+        "sender_username": "g",
+        "text": "$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@ $@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@ $@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@ $@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@ $@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@ $@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@ $@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@ $@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@ $@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@ $@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@ $@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@ $@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@ $@$@$@$@$@$@$@$@$@$@$@$@$@$@",
+        "time": "16:38:26.376"
+    }
+},
+{
+    "model": "dg.globalchat",
+    "pk": 84,
+    "fields": {
+        "sender_username": "g",
+        "text": "$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@ $@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@ $@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@ $@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@ $@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@ $@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@ $@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@ $@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@ $@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@ $@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@ $@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@ $@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@ $@$@$@$@$@$@$@$@$@$@$@$@$@$@",
+        "time": "16:38:26.738"
+    }
+},
+{
+    "model": "dg.globalchat",
+    "pk": 85,
+    "fields": {
+        "sender_username": "superidol",
+        "text": "👍🏿👍🏿👍🏿👍🏿👍🏿",
+        "time": "16:38:29.589"
+    }
+},
+{
+    "model": "dg.globalchat",
+    "pk": 86,
+    "fields": {
+        "sender_username": "superidol",
+        "text": "👍🏿👍🏿👍🏿👍🏿👍🏿",
+        "time": "16:38:34.109"
+    }
+},
+{
+    "model": "dg.globalchat",
+    "pk": 87,
+    "fields": {
+        "sender_username": "superidol",
+        "text": "👍🏿👍🏿👍🏿👍🏿👍🏿",
+        "time": "16:38:34.917"
+    }
+},
+{
+    "model": "dg.globalchat",
+    "pk": 88,
+    "fields": {
+        "sender_username": "superidol",
+        "text": "👍🏿👍🏿👍🏿👍🏿👍🏿",
+        "time": "16:38:35.731"
+    }
+},
+{
+    "model": "dg.globalchat",
+    "pk": 89,
+    "fields": {
+        "sender_username": "superidol",
+        "text": "👍🏿👍🏿👍🏿👍🏿👍🏿",
+        "time": "16:38:36.351"
+    }
+},
+{
+    "model": "dg.globalchat",
+    "pk": 90,
+    "fields": {
+        "sender_username": "superidol",
+        "text": "👍🏿👍🏿👍🏿👍🏿👍🏿",
+        "time": "16:38:37.166"
+    }
+},
+{
+    "model": "dg.globalchat",
+    "pk": 91,
+    "fields": {
+        "sender_username": "g",
+        "text": "$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@ $@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@ $@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@ $@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@ $@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@ $@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@ $@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@ $@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@ $@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@ $@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@ $@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@ $@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@ $@$@$@$@$@$@$@$@$@$@$@$@$@$@",
+        "time": "16:38:37.551"
+    }
+},
+{
+    "model": "dg.globalchat",
+    "pk": 92,
+    "fields": {
+        "sender_username": "superidol",
+        "text": "👍🏿👍🏿👍🏿👍🏿👍🏿",
+        "time": "16:38:38.002"
+    }
+},
+{
+    "model": "dg.globalchat",
+    "pk": 93,
+    "fields": {
+        "sender_username": "superidol",
+        "text": "👍🏿👍🏿👍🏿👍🏿👍🏿",
+        "time": "16:38:41.472"
+    }
+},
+{
+    "model": "dg.globalchat",
+    "pk": 94,
+    "fields": {
+        "sender_username": "superidol",
+        "text": "👍🏿👍🏿👍🏿👍🏿👍🏿",
+        "time": "16:38:42.295"
+    }
+},
+{
+    "model": "dg.globalchat",
+    "pk": 95,
+    "fields": {
+        "sender_username": "g",
+        "text": "$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@ $@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@ $@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@ $@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@ $@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@ $@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@ $@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@ $@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@ $@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@ $@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@ $@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@ $@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@ $@$@$@$@$@$@$@$@$@$@$@$@$@$@",
+        "time": "16:38:58.232"
+    }
+},
+{
+    "model": "dg.globalchat",
+    "pk": 96,
+    "fields": {
+        "sender_username": "g",
+        "text": "k",
+        "time": "16:39:04.560"
+    }
+},
+{
+    "model": "dg.globalchat",
+    "pk": 97,
+    "fields": {
+        "sender_username": "superidol",
+        "text": "<h1>Тест</h1>",
+        "time": "16:39:07.515"
+    }
+},
+{
+    "model": "dg.globalchat",
+    "pk": 98,
+    "fields": {
+        "sender_username": "superidol",
+        "text": "блин",
+        "time": "16:39:12.396"
+    }
+},
+{
+    "model": "dg.globalchat",
+    "pk": 99,
+    "fields": {
+        "sender_username": "superidol",
+        "text": "https://www.myinstants.com/instant/super-idol-18527/",
+        "time": "16:40:07.478"
+    }
+},
+{
+    "model": "dg.globalchat",
+    "pk": 100,
+    "fields": {
+        "sender_username": "superidol",
+        "text": "https://www.myinstahttps://www.myinstants.com/instant/super-idol-18527/nts.com/instant/super-idol-18527/",
+        "time": "16:40:09.116"
+    }
+},
+{
+    "model": "dg.globalchat",
+    "pk": 101,
+    "fields": {
+        "sender_username": "superidol",
+        "text": "https://www.myinstants.com/instant/super-idol-18527/",
+        "time": "16:40:12.598"
+    }
+},
+{
+    "model": "dg.globalchat",
+    "pk": 102,
+    "fields": {
+        "sender_username": "vladimr_lenin",
+        "text": "нигеры пидоры",
+        "time": "16:40:58.672"
+    }
+},
+{
+    "model": "dg.globalchat",
+    "pk": 103,
+    "fields": {
+        "sender_username": "vladimr_lenin",
+        "text": "нигеры пидоры",
+        "time": "16:41:33.089"
+    }
+},
+{
+    "model": "dg.globalchat",
+    "pk": 104,
+    "fields": {
+        "sender_username": "narek_gay",
+        "text": "Кто двинется - тот натурал ",
+        "time": "16:41:57.513"
+    }
+},
+{
+    "model": "dg.globalchat",
+    "pk": 105,
+    "fields": {
+        "sender_username": "narek_gay",
+        "text": "Кто двинется - тот натурал ",
+        "time": "16:42:06.734"
+    }
+},
+{
+    "model": "dg.globalchat",
+    "pk": 106,
+    "fields": {
+        "sender_username": "narek_gay",
+        "text": "Книгеры полупокеры",
+        "time": "16:42:36.781"
+    }
+},
+{
+    "model": "dg.globalchat",
+    "pk": 107,
+    "fields": {
+        "sender_username": "narek_gay",
+        "text": "и Нарек тоже ",
+        "time": "16:42:46.130"
+    }
+},
+{
+    "model": "dg.message",
+    "pk": 1,
+    "fields": {
+        "text": "Hello!",
+        "chat_id": 1,
+        "sender_id": 1,
+        "time": "2022-03-26T16:12:11.989Z"
+    }
+},
+{
+    "model": "dg.message",
+    "pk": 2,
+    "fields": {
+        "text": "Are you GAY?",
+        "chat_id": 1,
+        "sender_id": 1,
+        "time": "2022-03-26T16:12:31.829Z"
+    }
+},
+{
+    "model": "dg.message",
+    "pk": 3,
+    "fields": {
+        "text": "I bet you are...",
+        "chat_id": 1,
+        "sender_id": 1,
+        "time": "2022-03-26T16:13:06.240Z"
+    }
+},
+{
+    "model": "dg.message",
+    "pk": 4,
+    "fields": {
+        "text": "hello bruh",
+        "chat_id": 2,
+        "sender_id": 3,
+        "time": "2022-03-26T16:13:41.608Z"
+    }
+},
+{
+    "model": "dg.message",
+    "pk": 5,
+    "fields": {
+        "text": "Hi!",
+        "chat_id": 2,
+        "sender_id": 1,
+        "time": "2022-03-26T16:13:44.828Z"
+    }
+},
+{
+    "model": "dg.message",
+    "pk": 6,
+    "fields": {
+        "text": "you know candis?",
+        "chat_id": 1,
+        "sender_id": 2,
+        "time": "2022-03-26T16:13:52.465Z"
+    }
+},
+{
+    "model": "dg.message",
+    "pk": 7,
+    "fields": {
+        "text": "Yes, of course",
+        "chat_id": 1,
+        "sender_id": 1,
+        "time": "2022-03-26T16:14:09.603Z"
+    }
+},
+{
+    "model": "dg.message",
+    "pk": 8,
+    "fields": {
+        "text": "Ben, is Narek gay?",
+        "chat_id": 2,
+        "sender_id": 3,
+        "time": "2022-03-26T16:14:45.710Z"
+    }
+},
+{
+    "model": "dg.message",
+    "pk": 9,
+    "fields": {
+        "text": "candis nuts fit in your mouth?",
+        "chat_id": 1,
+        "sender_id": 2,
+        "time": "2022-03-26T16:14:46.663Z"
+    }
+},
+{
+    "model": "dg.message",
+    "pk": 10,
+    "fields": {
+        "text": "Hohoho",
+        "chat_id": 2,
+        "sender_id": 3,
+        "time": "2022-03-26T16:14:51.235Z"
+    }
+},
+{
+    "model": "dg.message",
+    "pk": 11,
+    "fields": {
+        "text": "yes",
+        "chat_id": 2,
+        "sender_id": 3,
+        "time": "2022-03-26T16:14:58.610Z"
+    }
+},
+{
+    "model": "dg.message",
+    "pk": 12,
+    "fields": {
+        "text": "kr4 telegram govno djangogram mega top, avtoru telegrama 0 let",
+        "chat_id": 2,
+        "sender_id": 3,
+        "time": "2022-03-26T16:15:32.607Z"
+    }
+},
+{
+    "model": "dg.message",
+    "pk": 13,
+    "fields": {
+        "text": "Agree",
+        "chat_id": 2,
+        "sender_id": 1,
+        "time": "2022-03-26T16:15:38.048Z"
+    }
+},
+{
+    "model": "dg.message",
+    "pk": 14,
+    "fields": {
+        "text": "Go to /profile",
+        "chat_id": 1,
+        "sender_id": 1,
+        "time": "2022-03-26T16:19:54.922Z"
+    }
+},
+{
+    "model": "dg.message",
+    "pk": 15,
+    "fields": {
+        "text": "Go to /profile",
+        "chat_id": 2,
+        "sender_id": 1,
+        "time": "2022-03-26T16:20:03.449Z"
+    }
+},
+{
+    "model": "dg.message",
+    "pk": 16,
+    "fields": {
+        "text": "hi narek",
+        "chat_id": 3,
+        "sender_id": 3,
+        "time": "2022-03-26T16:20:15.510Z"
+    }
+},
+{
+    "model": "dg.message",
+    "pk": 17,
+    "fields": {
+        "text": "Ты гей",
+        "chat_id": 5,
+        "sender_id": 4,
+        "time": "2022-03-26T16:23:05.304Z"
+    }
+},
+{
+    "model": "dg.message",
+    "pk": 18,
+    "fields": {
+        "text": "Super idol de xiào róng",
+        "chat_id": 7,
+        "sender_id": 5,
+        "time": "2022-03-26T16:24:43.201Z"
+    }
+},
+{
+    "model": "dg.message",
+    "pk": 19,
+    "fields": {
+        "text": "Dōu méi nǐ de tián",
+        "chat_id": 7,
+        "sender_id": 5,
+        "time": "2022-03-26T16:24:53.644Z"
+    }
+},
+{
+    "model": "dg.message",
+    "pk": 20,
+    "fields": {
+        "text": "Bā yuè zhèng wǔ de yáng guāng",
+        "chat_id": 7,
+        "sender_id": 5,
+        "time": "2022-03-26T16:25:02.050Z"
+    }
+},
+{
+    "model": "dg.message",
+    "pk": 21,
+    "fields": {
+        "text": "Dōu méi nǐ yào yǎn",
+        "chat_id": 7,
+        "sender_id": 5,
+        "time": "2022-03-26T16:25:09.828Z"
+    }
+},
+{
+    "model": "dg.message",
+    "pk": 22,
+    "fields": {
+        "text": "Rè ài yì bǎi líng wǔ dù de nǐ",
+        "chat_id": 7,
+        "sender_id": 5,
+        "time": "2022-03-26T16:25:16.815Z"
+    }
+},
+{
+    "model": "dg.message",
+    "pk": 23,
+    "fields": {
+        "text": "Dī dī qīng chún de zhēng liú shuǐ",
+        "chat_id": 7,
+        "sender_id": 5,
+        "time": "2022-03-26T16:25:25.184Z"
+    }
+},
+{
+    "model": "dg.message",
+    "pk": 24,
+    "fields": {
+        "text": "Super idol de xiào róng",
+        "chat_id": 8,
+        "sender_id": 5,
+        "time": "2022-03-26T16:25:35.851Z"
+    }
+},
+{
+    "model": "dg.message",
+    "pk": 25,
+    "fields": {
+        "text": "Dōu méi nǐ de tián",
+        "chat_id": 8,
+        "sender_id": 5,
+        "time": "2022-03-26T16:25:41.381Z"
+    }
+},
+{
+    "model": "dg.message",
+    "pk": 26,
+    "fields": {
+        "text": "Bā yuè zhèng wǔ de yáng guāng",
+        "chat_id": 8,
+        "sender_id": 5,
+        "time": "2022-03-26T16:25:46.074Z"
+    }
+},
+{
+    "model": "dg.message",
+    "pk": 27,
+    "fields": {
+        "text": "Dōu méi nǐ yào yǎn",
+        "chat_id": 8,
+        "sender_id": 5,
+        "time": "2022-03-26T16:25:51.610Z"
+    }
+},
+{
+    "model": "dg.message",
+    "pk": 28,
+    "fields": {
+        "text": "Rè ài yì bǎi líng wǔ dù de nǐ",
+        "chat_id": 8,
+        "sender_id": 5,
+        "time": "2022-03-26T16:25:58.586Z"
+    }
+},
+{
+    "model": "dg.message",
+    "pk": 29,
+    "fields": {
+        "text": "Dī dī qīng chún de zhēng liú shuǐ",
+        "chat_id": 8,
+        "sender_id": 5,
+        "time": "2022-03-26T16:26:06.767Z"
+    }
+},
+{
+    "model": "dg.message",
+    "pk": 30,
+    "fields": {
+        "text": "Super idol de xiào róng",
+        "chat_id": 9,
+        "sender_id": 5,
+        "time": "2022-03-26T16:27:53.855Z"
+    }
+},
+{
+    "model": "dg.message",
+    "pk": 31,
+    "fields": {
+        "text": "Dōu méi nǐ de tián",
+        "chat_id": 9,
+        "sender_id": 5,
+        "time": "2022-03-26T16:28:03.304Z"
+    }
+},
+{
+    "model": "dg.message",
+    "pk": 32,
+    "fields": {
+        "text": "Bā yuè zhèng wǔ de yáng guāng",
+        "chat_id": 9,
+        "sender_id": 5,
+        "time": "2022-03-26T16:28:09.105Z"
+    }
+},
+{
+    "model": "dg.message",
+    "pk": 33,
+    "fields": {
+        "text": "Dōu méi nǐ yào yǎn",
+        "chat_id": 9,
+        "sender_id": 5,
+        "time": "2022-03-26T16:28:13.644Z"
+    }
+},
+{
+    "model": "dg.message",
+    "pk": 34,
+    "fields": {
+        "text": "Rè ài yì bǎi líng wǔ dù de nǐ",
+        "chat_id": 9,
+        "sender_id": 5,
+        "time": "2022-03-26T16:28:19.272Z"
+    }
+},
+{
+    "model": "dg.message",
+    "pk": 35,
+    "fields": {
+        "text": "Dī dī qīng chún de zhēng liú shuǐ",
+        "chat_id": 9,
+        "sender_id": 5,
+        "time": "2022-03-26T16:28:23.896Z"
+    }
+},
+{
+    "model": "dg.message",
+    "pk": 36,
+    "fields": {
+        "text": "скажи",
+        "chat_id": 10,
+        "sender_id": 6,
+        "time": "2022-03-26T16:40:33.282Z"
+    }
+},
+{
+    "model": "dg.message",
+    "pk": 37,
+    "fields": {
+        "text": "банка",
+        "chat_id": 10,
+        "sender_id": 6,
+        "time": "2022-03-26T16:40:40.253Z"
+    }
+},
+{
+    "model": "dg.message",
+    "pk": 38,
+    "fields": {
+        "text": "банка",
+        "chat_id": 10,
+        "sender_id": 1,
+        "time": "2022-04-02T14:28:33.384Z"
+    }
+},
+{
+    "model": "dg.message",
+    "pk": 39,
+    "fields": {
+        "text": "dfgds",
+        "chat_id": 1,
+        "sender_id": 1,
+        "time": "2022-04-02T14:33:09.714Z"
+    }
+},
+{
+    "model": "dg.userbalance",
+    "pk": 1,
+    "fields": {
+        "user_id": 1,
+        "money": 0
+    }
+},
+{
+    "model": "dg.userbalance",
+    "pk": 2,
+    "fields": {
+        "user_id": 2,
+        "money": 0
+    }
+},
+{
+    "model": "dg.userbalance",
+    "pk": 3,
+    "fields": {
+        "user_id": 3,
+        "money": 0
+    }
+},
+{
+    "model": "dg.userbalance",
+    "pk": 4,
+    "fields": {
+        "user_id": 4,
+        "money": 0
+    }
+},
+{
+    "model": "dg.userbalance",
+    "pk": 5,
+    "fields": {
+        "user_id": 5,
+        "money": 0
+    }
+},
+{
+    "model": "dg.userbalance",
+    "pk": 6,
+    "fields": {
+        "user_id": 6,
+        "money": 0
+    }
+},
+{
+    "model": "dg.userbalance",
+    "pk": 7,
+    "fields": {
+        "user_id": 7,
+        "money": 0
+    }
+}
+]
